@@ -1,0 +1,240 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "featured_product_iUYaNN": {
+      "type": "featured-product",
+      "blocks": {
+        "text_XcxQxb": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_EYmxJT": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_tnXkmB": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_WixjrY": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown",
+            "swatch_shape": "square"
+          }
+        },
+        "quantity_selector_RmgRCy": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_aPXwY7": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_KLHLMG": {
+          "type": "share",
+          "settings": {
+            "share_label": "Teilen"
+          }
+        }
+      },
+      "block_order": [
+        "text_XcxQxb",
+        "title_EYmxJT",
+        "price_tnXkmB",
+        "variant_picker_WixjrY",
+        "quantity_selector_RmgRCy",
+        "buy_buttons_aPXwY7",
+        "share_KLHLMG"
+      ],
+      "settings": {
+        "product": "automatic-stirring-mug-no-spoon-no-problem",
+        "color_scheme": "scheme-1",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_banner_j9F4hT": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_eVhEL3": {
+          "type": "heading",
+          "settings": {
+            "heading": "Effortless Mixing, Stylish Design!",
+            "heading_size": "h2"
+          }
+        },
+        "text_cL8frX": {
+          "type": "text",
+          "settings": {
+            "text": "Automatic Stirring Mug – No Spoon, No Problem!",
+            "text_style": "body"
+          }
+        },
+        "buttons_nENd3P": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Explore",
+            "button_link_1": "shopify://products/automatic-stirring-mug-no-spoon-no-problem",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_eVhEL3",
+        "text_cL8frX",
+        "buttons_nENd3P"
+      ],
+      "custom_css": [
+        ".media > img {position: center bottom;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/one.jpg",
+        "image_2": "shopify://shop_images/S1b292e249684431aaec0c3fbc301fabfn.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "zoom-in",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_with_text_LKaNkH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_a7bNKh": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stirring Magic Cup",
+            "heading_size": "h1"
+          }
+        },
+        "text_PqHRfU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Enjoy perfectly blended drinks on the go with our <strong>Automatic Stirring Mug</strong>. Crafted with durable <strong>stainless steel and ABS plastic</strong>, this <strong>380ml</strong> mug combines modern style with practicality. Featuring one-touch operation and a spill-resistant lid, it’s perfect for coffee, tea, or protein shakes. Available in sleek <strong>white</strong> and <strong>brown</strong>, it’s a must-have for busy mornings or cozy afternoons.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_WMPkit": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify://products/automatic-stirring-mug-no-spoon-no-problem",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_a7bNKh",
+        "text_PqHRfU",
+        "button_WMPkit"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Sa458212c23884c47b36f309fb092f03cR.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_zbj3Hr": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_AG3tne": {
+          "type": "column",
+          "settings": {
+            "title": "Sarah T",
+            "text": "<p>\"Game changer for my mornings! I love how easy it is to mix my coffee with just one button. No more messy spoons!\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_TgxHtF": {
+          "type": "column",
+          "settings": {
+            "title": "Jason L",
+            "text": "<p>\"The quality is excellent, and it’s so convenient for my protein shakes. Lightweight and portable – I take it everywhere!\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_6D8gc9": {
+          "type": "column",
+          "settings": {
+            "title": "Emily R",
+            "text": "<p>\"Stylish, durable, and works like a charm. Perfect for coffee lovers like me. Highly recommend!\"</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_AG3tne",
+        "column_TgxHtF",
+        "column_6D8gc9"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Explore Magic Cup",
+        "button_link": "shopify://products/automatic-stirring-mug-no-spoon-no-problem",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "featured_product_iUYaNN",
+    "image_banner_j9F4hT",
+    "image_with_text_LKaNkH",
+    "multicolumn_zbj3Hr"
+  ]
+}
