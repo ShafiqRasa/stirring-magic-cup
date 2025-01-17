@@ -64,7 +64,7 @@
         "share_KLHLMG"
       ],
       "settings": {
-        "product": "automatic-stirring-mug-no-spoon-no-problem",
+        "product": "stirring-magic-cup",
         "color_scheme": "scheme-1",
         "secondary_background": false,
         "media_size": "medium",
@@ -99,7 +99,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Explore",
-            "button_link_1": "shopify://products/automatic-stirring-mug-no-spoon-no-problem",
+            "button_link_1": "shopify://products/stirring-magic-cup",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -151,7 +151,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Now",
-            "button_link": "shopify://products/automatic-stirring-mug-no-spoon-no-problem",
+            "button_link": "shopify://products/stirring-magic-cup",
             "button_style_secondary": true
           }
         }
@@ -222,7 +222,7 @@
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Explore Magic Cup",
-        "button_link": "shopify://products/automatic-stirring-mug-no-spoon-no-problem",
+        "button_link": "shopify://products/stirring-magic-cup",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,

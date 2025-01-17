@@ -18,14 +18,14 @@
           "type": "announcement",
           "settings": {
             "text": "FREE SHIPPING",
-            "link": "shopify://products/automatic-stirring-mug-no-spoon-no-problem"
+            "link": "shopify://products/stirring-magic-cup"
           }
         },
         "announcement_BQEHyx": {
           "type": "announcement",
           "settings": {
             "text": "ONLY FOR YOU DISCOUNT 10% - Use Code MAGICCUP",
-            "link": "shopify://products/automatic-stirring-mug-no-spoon-no-problem"
+            "link": "shopify://products/stirring-magic-cup"
           }
         }
       },
