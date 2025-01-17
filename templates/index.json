@@ -64,7 +64,7 @@
         "share_KLHLMG"
       ],
       "settings": {
-        "product": "stirring-magic-cup",
+        "product": "magic-stirring-cup",
         "color_scheme": "scheme-1",
         "secondary_background": false,
         "media_size": "medium",
@@ -99,7 +99,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Explore",
-            "button_link_1": "shopify://products/stirring-magic-cup",
+            "button_link_1": "https://yourmagiccup.myshopify.com/products/magic-stirring-cup",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -116,7 +116,6 @@
         ".media > img {position: center bottom;}"
       ],
       "settings": {
-        "image": "shopify://shop_images/one.jpg",
         "image_2": "shopify://shop_images/S1b292e249684431aaec0c3fbc301fabfn.webp",
         "image_overlay_opacity": 0,
         "image_height": "large",
