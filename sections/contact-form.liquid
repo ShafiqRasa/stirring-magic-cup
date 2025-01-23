@@ -5,17 +5,63 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+  
+    .upper-container{
+      width:90vw;
+      height:80vh;
+      margin:0 auto;
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      row-gap:1em;      
+    }
+    .upper-container > * {
+      flex:1;
+      width:100%;
+      justify-content: center; 
+      max-height: fit-content; 
+    }
+    .contact-text{
+      margin-left:25px;
+    }
+    .contact-text .email, .phone{
+      display:none;
+    }
+    .contact-text > *{
+      margin:0;
+      padding:0;
+
+    }
+
+  
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+    .upper-container{
+      flex-direction:row;
+    }
+    .contact-text{
+      margin-left:0px;
+    }
+    .contact-text .email, .phone{
+      display:block;
+    }
+    
+    
   }
 {%- endstyle -%}
 
-<div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
+<div class="color-{{ section.settings.color_scheme }} gradient upper-container">
+  <div class="contact-text">
+    <h4 style="letter-spacing:5px; line-height: 2.5;">CONTACT US</h4>
+    <h1>Let's Talk About <br/> Your Project</h1>
+    <h4 class="email" style="line-height: 2.5;">magiccup@gmail.com</h4>
+    <h4 class="phone" style="line-height: 2.5;">+4915906494127</h4>
+  </div>
+  <div class="contact contact-form page-width page-width--narrow section-{{ section.id }}-padding">
     {%- if section.settings.heading != blank -%}
       <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {{ section.settings.heading }}
@@ -132,6 +178,8 @@
         </button>
       </div>
     {%- endform -%}
+
+
   </div>
 </div>
 
