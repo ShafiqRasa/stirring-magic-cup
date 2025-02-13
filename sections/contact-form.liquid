@@ -70,6 +70,7 @@
   }
 {%- endstyle -%}
 
+
 <div class="color-{{ section.settings.color_scheme }} gradient upper-container">
   <div class="contact-text">
     <h4 style="letter-spacing:5px; line-height: 2.5;">CONTACT US</h4>
@@ -195,10 +196,13 @@
         </button>
       </div>
     {%- endform -%}
-
+    
 
   </div>
 </div>
+{% for i in (1..55) -%}
+  {{ i }}
+{%- endfor %}
 
 {% schema %}
 {
