@@ -48,12 +48,13 @@
         "buttons_Pr38a4"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
+        "image": "shopify://shop_images/reading-about-web-development.jpg",
+        "image_overlay_opacity": 20,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
