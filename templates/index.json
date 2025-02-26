@@ -9,6 +9,33 @@
  */
 {
   "sections": {
+    "promotion_group_qR3EQT": {
+      "type": "promotion-group",
+      "blocks": {
+        "promotion_Je3Rqz": {
+          "type": "promotion",
+          "settings": {
+            "title": "Promotion 2",
+            "image": "shopify://shop_images/S84e7f68672c4402099fa589070fd45d9t.webp"
+          }
+        },
+        "promotion_xjnJaq": {
+          "type": "promotion",
+          "settings": {
+            "title": "Promotion 1",
+            "image": "shopify://shop_images/Sb430a3f4b4f94275a541ce634bcc9337z.webp"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_Je3Rqz",
+        "promotion_xjnJaq"
+      ],
+      "settings": {
+        "title": "Promotion",
+        "horizontal_alignment": "center"
+      }
+    },
     "featured_product_iUYaNN": {
       "type": "featured-product",
       "blocks": {
@@ -63,6 +90,7 @@
         "buy_buttons_aPXwY7",
         "share_KLHLMG"
       ],
+      "disabled": true,
       "settings": {
         "product": "magic-stirring-cup",
         "color_scheme": "scheme-1",
@@ -107,8 +135,14 @@
           }
         }
       },
-      "block_order": ["heading_eVhEL3", "text_cL8frX", "buttons_nENd3P"],
-      "custom_css": [".media > img {position: center bottom;}"],
+      "block_order": [
+        "heading_eVhEL3",
+        "text_cL8frX",
+        "buttons_nENd3P"
+      ],
+      "custom_css": [
+        ".media > img {position: center bottom;}"
+      ],
       "settings": {
         "image_2": "shopify://shop_images/S1b292e249684431aaec0c3fbc301fabfn.webp",
         "image_overlay_opacity": 0,
@@ -149,7 +183,11 @@
           }
         }
       },
-      "block_order": ["heading_a7bNKh", "text_PqHRfU", "button_WMPkit"],
+      "block_order": [
+        "heading_a7bNKh",
+        "text_PqHRfU",
+        "button_WMPkit"
+      ],
       "settings": {
         "image": "shopify://shop_images/Sa458212c23884c47b36f309fb092f03cR.webp",
         "height": "adapt",
@@ -197,7 +235,11 @@
           }
         }
       },
-      "block_order": ["column_AG3tne", "column_TgxHtF", "column_6D8gc9"],
+      "block_order": [
+        "column_AG3tne",
+        "column_TgxHtF",
+        "column_6D8gc9"
+      ],
       "settings": {
         "title": "Testimonials",
         "heading_size": "h1",
@@ -217,6 +259,7 @@
     }
   },
   "order": [
+    "promotion_group_qR3EQT",
     "featured_product_iUYaNN",
     "image_banner_j9F4hT",
     "image_with_text_LKaNkH",
