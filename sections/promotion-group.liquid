@@ -1,0 +1,85 @@
+{% liquid
+  assign promotions = section.blocks | where:"type","promotion"
+%}
+<div class="promotion-container" style="text-align:{{ section.settings.horizontal_alignment }}">
+    <h2>{{ section.settings.title }}</h2>
+    <div class="promotions">
+    {% for promotion in promotions %}
+            <div class="promotion">
+                <p>{{ promotion.settings.title }}</p>
+                {{ promotion.settings.image | image_url: width: 500, height: 500 | image_tag}}
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% stylesheet %}
+  .promotion-container{
+    display:flex;
+    flex-direction:column;
+  }
+  .promotions{
+    display:flex;
+    justify-content:space-around;
+  }
+  .promotion{
+    flex:1;
+  }
+{% endstylesheet %}
+{% schema %}
+
+    {
+        "name": "Promotions Group",
+        "tag": "section",
+        "class": "promotion-group",
+        "settings": [
+            {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default":"Promotion"
+            },
+            {
+            "type": "select",
+            "id": "horizontal_alignment",
+            "label": "Horizontal alignment",
+            "options": [
+                {
+                "value": "start",
+                "label": "Left"
+                },
+                {
+                "value": "center",
+                "label": "Center"
+                },
+                {
+                "value": "end",
+                "label": "Right"
+                }
+            ],
+            "default": "center"
+            }
+        ],
+        "blocks": [
+           {
+                "type": "promotion",
+                "name":"Promotion",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Title"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Image"
+                    }
+                ]
+            }
+
+        ],
+        "presets": [{"name": "Prmotions Group"}]
+    }
+
+{% endschema %}
