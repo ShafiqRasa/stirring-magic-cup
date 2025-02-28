@@ -1,0 +1,9 @@
+{
+  "sections": {
+    "main": {
+      "type": "special-offer-main",
+      "settings": {}
+    }
+  },
+  "order": ["main"]
+}
