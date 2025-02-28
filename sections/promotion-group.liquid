@@ -3,14 +3,20 @@
 %}
 <div class="promotion-container" style="text-align:{{ section.settings.horizontal_alignment }}">
     <h2>{{ section.settings.title }}</h2>
-    <div class="promotions">
-    {% for promotion in promotions %}
-            <div class="promotion">
-                <p>{{ promotion.settings.title }}</p>
-                {{ promotion.settings.image | image_url: width: 500, height: 500 | image_tag}}
+    {% if promotions %}
+        <div class="promotions">
+            {% for promotion in promotions %}
+                    <div class="promotion">
+                        {% if promotion.settings.title %}
+                             <p>{{ promotion.settings.title }}</p>
+                        {% endif %}
+                        {% if promotion.settings.image %}
+                            {{ promotion.settings.image | image_url: width: 500, height: 500 | image_tag}}
+                        {% endif %}
+                    </div>
+            {% endfor %}
             </div>
-        {% endfor %}
-    </div>
+    {% endif %}
 </div>
 
 {% stylesheet %}
