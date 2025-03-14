@@ -18,10 +18,18 @@
             "service_icon": "shopify://shop_images/free-delivery.png",
             "service_label": "Free Delivery"
           }
+        },
+        "services_MDcUUW": {
+          "type": "services",
+          "settings": {
+            "service_icon": "shopify://shop_images/24-hours-support.png",
+            "service_label": "24 Hours Support"
+          }
         }
       },
       "block_order": [
-        "services_JARc3w"
+        "services_JARc3w",
+        "services_MDcUUW"
       ],
       "settings": {
         "title": "Why Choose Us?",
