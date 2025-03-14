@@ -1,15 +1,16 @@
-{{ 'icon-list.css' }}
-<div>
-    <h2>{{ section.settings.title }}</h2>
-    <p>{{ section.settings.desc }}</p>
-    <div class="services-container">
-        {%  for blocks in section.blocks  %}
-            {% if blocks %}
+{{ 'icon-list.css' | asset_url | stylesheet_tag}}
+
+<h2>{{ section.settings.title }}</h2>
+<p>{{ section.settings.desc }}</p>
+<div class="services-container">
+    {%  for blocks in section.blocks  %}
+        {% if blocks %}
+            <div class="service">
                 {{ blocks.settings.service_icon | image_url: width: 50, height: 50 | image_tag }}
-                <p>{{ blocks.settings.service_label }}</p>
-            {% endif %}
-        {% endfor %}
-    </div>
+            <p>{{ blocks.settings.service_label }}</p>
+            </div>
+        {% endif %}
+    {% endfor %}
 </div>
 {% comment %} {{ section.blocks }} {% endcomment %}
 {% schema %}

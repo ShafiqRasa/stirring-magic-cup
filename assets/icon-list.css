@@ -1,3 +1,20 @@
 .icon-list-section {
-  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-list-section > * {
+  width: fit-content;
+}
+.services-container {
+  display: flex;
+  justify-content: center;
+  column-gap: 1em;
+  width: 100%;
+}
+.service {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

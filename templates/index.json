@@ -9,6 +9,25 @@
  */
 {
   "sections": {
+    "icon_list_Mz9tjp": {
+      "type": "icon-list",
+      "blocks": {
+        "services_JARc3w": {
+          "type": "services",
+          "settings": {
+            "service_icon": "shopify://shop_images/free-delivery.png",
+            "service_label": "Free Delivery"
+          }
+        }
+      },
+      "block_order": [
+        "services_JARc3w"
+      ],
+      "settings": {
+        "title": "Why Choose Us?",
+        "desc": "Discover our range of services designed to provide the best experience for you. We ensure quality, reliability, and customer satisfaction."
+      }
+    },
     "promotion_group_qR3EQT": {
       "type": "promotion-group",
       "blocks": {
@@ -33,6 +52,7 @@
       ],
       "settings": {
         "title": "Promotion",
+        "custom_font": "sans-serif",
         "horizontal_alignment": "center"
       }
     },
@@ -259,6 +279,7 @@
     }
   },
   "order": [
+    "icon_list_Mz9tjp",
     "promotion_group_qR3EQT",
     "featured_product_iUYaNN",
     "image_banner_j9F4hT",
