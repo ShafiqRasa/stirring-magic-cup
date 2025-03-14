@@ -19,6 +19,13 @@
     {% endif %}
 </div>
 
+<style>
+    {{section.settings.custom_font | font_face:font_display: 'auto'}}
+    .promotion-group{
+        font-family:{{section.settings.custom_font.family }}
+    }
+</style>
+
 {% stylesheet %}
   .promotion-container{
     display:flex;
@@ -40,10 +47,21 @@
         "class": "promotion-group",
         "settings": [
             {
+                "type": "header",
+                "content": "Avaliable Inputs",
+                "info": "Try these input! [Learn more!](https://shopifydev.com)"
+            },
+            {
             "type": "text",
             "id": "title",
             "label": "Title",
             "default":"Promotion"
+            },
+            {
+                "type": "font_picker",
+                "label": "custom font",
+                "id": "custom_font",
+                "default":"sans-serif"
             },
             {
             "type": "select",
@@ -65,6 +83,7 @@
             ],
             "default": "center"
             }
+            
         ],
         "blocks": [
            {
