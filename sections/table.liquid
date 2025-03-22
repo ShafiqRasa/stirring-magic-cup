@@ -1,0 +1,30 @@
+<div class="page-wdith">
+    <table>
+        {% content_for 'block', type:'table-header', id:'table-header' %} {% comment %} static single block{% endcomment %}
+        <tbody>
+            {% content_for 'blocks' %}
+        </tbody>
+    </table>
+</div>
+<style>
+    table{
+    border:1px solid red;
+    }
+    tr td{
+    border:1px solid blue;
+    }
+</style>
+{% schema %}
+{
+    "name": "Table",
+    "class": "table-section",
+    "blocks": [
+        {
+            "type": "table-row"
+       }
+    ],
+    "presets": [{
+        "name": "Table"
+    }]
+}
+{% endschema %}

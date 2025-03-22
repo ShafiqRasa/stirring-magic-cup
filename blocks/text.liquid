@@ -1,0 +1,18 @@
+{% if block.settings.text-id %}
+    <p {{ block.shopify_attributes }}>{{ block.settings.text-id }}</p>
+{% endif %}
+{% schema %}
+{
+    "name": "text",
+    "settings": [
+        {
+            "type": "text",
+            "label": "Text",
+            "id": "text-id"
+       }
+    ],
+    "presets": [{
+        "name": "text"
+    }]
+}
+{% endschema %}
