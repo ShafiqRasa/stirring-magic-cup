@@ -1,0 +1,29 @@
+
+    {% if block %}
+        <div class="service">
+            {{ block.settings.service_icon | image_url: width: 50, height: 50 | image_tag }}
+        <p>{{ block.settings.service_label }}</p>
+        </div>
+    {% endif %}
+
+{% schema %}
+{
+    "name": "service",
+    "settings": [
+        {
+        "type": "image_picker",
+        "id": "service_icon",
+        "label": "Service Icon"
+        },
+        {
+        "type": "text",
+        "id": "service_label",
+        "label": "Service"
+        },
+    ],
+    "presets": [{
+    "name": "service"
+    }] 
+}
+
+{% endschema %}

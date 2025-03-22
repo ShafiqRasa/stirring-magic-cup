@@ -1,18 +1,17 @@
 {{ 'icon-list.css' | asset_url | stylesheet_tag}}
 
-<h2>{{ section.settings.title }}</h2>
-<p>{{ section.settings.desc }}</p>
-<div class="services-container">
-    {%  for blocks in section.blocks  %}
-        {% if blocks %}
-            <div class="service">
-                {{ blocks.settings.service_icon | image_url: width: 50, height: 50 | image_tag }}
-            <p>{{ blocks.settings.service_label }}</p>
-            </div>
-        {% endif %}
-    {% endfor %}
+<style>
+    #shopify-section-{{ section.id }}{
+        background:{{ section.settings.background }}
+    }
+</style>
+<div class="wrapper" style="--text-color:{{ section.settings.text_color }}">
+    <h2>{{ section.settings.title }}</h2>
+    <p>{{ section.settings.desc }}</p>
+    <div class="services-container">
+       {% content_for 'blocks' %}
+    </div>
 </div>
-{% comment %} {{ section.blocks }} {% endcomment %}
 {% schema %}
 {
     "name": "icon list",
@@ -31,25 +30,23 @@
         "label": "Short description",
         "default":"Discover our range of services designed to provide the best experience for you. We ensure quality, reliability, and customer satisfaction."
         },
+        {
+        "type": "color_background",
+        "id": "background",
+        "label": "Background",
+        "default": "linear-gradient(#ffffff, #000000)"
+        },
+        {
+        "type": "color",
+        "id": "text_color",
+        "label": "Text Color",
+        "default":"#000"
+        }
         
     ],
     "blocks": [
         {
-        "type": "services",
-        "name":"Service",
-        "settings": [
-            {
-            "type": "image_picker",
-            "id": "service_icon",
-            "label": "Service Icon"
-            },
-            {
-            "type": "text",
-            "id": "service_label",
-            "label": "Service"
-            }
-        ],
-        "limit": 3
+        "type": "@theme",
         }
     ],
     "presets": [{"name": "icon list"}]
