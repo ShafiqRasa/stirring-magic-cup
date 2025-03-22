@@ -25,15 +25,25 @@
             "service_icon": "shopify://shop_images/24-hours-support.png",
             "service_label": "24 Hours Support"
           }
+        },
+        "services_cNKBkF": {
+          "type": "services",
+          "settings": {
+            "service_icon": "shopify://shop_images/card.png",
+            "service_label": "Secure Payments"
+          }
         }
       },
       "block_order": [
         "services_JARc3w",
-        "services_MDcUUW"
+        "services_MDcUUW",
+        "services_cNKBkF"
       ],
       "settings": {
         "title": "Why Choose Us?",
-        "desc": "Discover our range of services designed to provide the best experience for you. We ensure quality, reliability, and customer satisfaction."
+        "desc": "Discover our range of services designed to provide the best experience for you. We ensure quality, reliability, and customer satisfaction.",
+        "background": "",
+        "text_color": "#000"
       }
     },
     "promotion_group_qR3EQT": {
