@@ -14,143 +14,175 @@
       "blocks": {
         "table_row_n9kyTb": {
           "type": "table-row",
-          "settings": {},
+          "settings": {
+            "row-bg-color": "#ffffff"
+          },
           "blocks": {
             "table_cell_DggUWV": {
               "type": "table-cell",
               "settings": {
-                "type_of_cell": "body"
-              },
-              "blocks": {
-                "text_UinzE9": {
-                  "type": "text",
-                  "settings": {
-                    "text-id": "body 1"
-                  }
-                }
-              },
-              "block_order": [
-                "text_UinzE9"
-              ]
+                "type_of_cell": "body",
+                "cell-text": "Shafiq",
+                "text-alignment": "center",
+                "cell-bg-color": "#ffffff",
+                "text-color": "#000000"
+              }
             },
             "table_cell_T4ctNq": {
               "type": "table-cell",
               "settings": {
-                "type_of_cell": "body"
-              },
-              "blocks": {
-                "text_HQEgAH": {
-                  "type": "text",
-                  "settings": {
-                    "text-id": "body 2"
-                  }
-                }
-              },
-              "block_order": [
-                "text_HQEgAH"
-              ]
+                "type_of_cell": "body",
+                "cell-text": "Salehi",
+                "text-alignment": "center",
+                "cell-bg-color": "#ffffff",
+                "text-color": "#000000"
+              }
+            },
+            "table_cell_GcA9xb": {
+              "type": "table-cell",
+              "settings": {
+                "type_of_cell": "body",
+                "cell-text": "Shopify Theme Developer",
+                "text-alignment": "center",
+                "cell-bg-color": "#ffffff",
+                "text-color": "#000000"
+              }
+            },
+            "table_cell_act8JV": {
+              "type": "table-cell",
+              "settings": {
+                "type_of_cell": "body",
+                "cell-text": "2 Years",
+                "text-alignment": "center",
+                "cell-bg-color": "#11a955",
+                "text-color": "#ffffff"
+              }
             }
           },
           "block_order": [
             "table_cell_DggUWV",
-            "table_cell_T4ctNq"
+            "table_cell_T4ctNq",
+            "table_cell_GcA9xb",
+            "table_cell_act8JV"
           ]
         },
-        "table_row_XDXTCT": {
+        "table_row_BfWj9Y": {
           "type": "table-row",
-          "settings": {},
+          "settings": {
+            "row-bg-color": "#ffffff"
+          },
           "blocks": {
-            "table_cell_gqWHQL": {
+            "table_cell_rWkcJY": {
               "type": "table-cell",
               "settings": {
-                "type_of_cell": "body"
-              },
-              "blocks": {
-                "text_FwKUwR": {
-                  "type": "text",
-                  "settings": {
-                    "text-id": "body 1"
-                  }
-                }
-              },
-              "block_order": [
-                "text_FwKUwR"
-              ]
+                "type_of_cell": "body",
+                "cell-text": "Ali",
+                "text-alignment": "center",
+                "cell-bg-color": "#ffffff",
+                "text-color": "#000000"
+              }
             },
-            "table_cell_dapb8N": {
+            "table_cell_q7WM9M": {
               "type": "table-cell",
               "settings": {
-                "type_of_cell": "body"
-              },
-              "blocks": {
-                "text_rRwrxV": {
-                  "type": "text",
-                  "settings": {
-                    "text-id": "body 2"
-                  }
-                }
-              },
-              "block_order": [
-                "text_rRwrxV"
-              ]
+                "type_of_cell": "body",
+                "cell-text": "Shar",
+                "text-alignment": "center",
+                "cell-bg-color": "#ffffff",
+                "text-color": "#000000"
+              }
+            },
+            "table_cell_RA4Ycz": {
+              "type": "table-cell",
+              "settings": {
+                "type_of_cell": "body",
+                "cell-text": "React Developer",
+                "text-alignment": "center",
+                "cell-bg-color": "#ffffff",
+                "text-color": "#000000"
+              }
+            },
+            "table_cell_3XreeT": {
+              "type": "table-cell",
+              "settings": {
+                "type_of_cell": "body",
+                "cell-text": "1 Year",
+                "text-alignment": "center",
+                "cell-bg-color": "#11a955",
+                "text-color": "#ffffff"
+              }
             }
           },
           "block_order": [
-            "table_cell_gqWHQL",
-            "table_cell_dapb8N"
+            "table_cell_rWkcJY",
+            "table_cell_q7WM9M",
+            "table_cell_RA4Ycz",
+            "table_cell_3XreeT"
           ]
         },
         "table-header": {
           "type": "table-header",
           "static": true,
-          "settings": {},
+          "settings": {
+            "header-bg-color": "#11a955"
+          },
           "blocks": {
             "table_cell_4bzMUq": {
               "type": "table-cell",
               "settings": {
-                "type_of_cell": "header"
-              },
-              "blocks": {
-                "text_tJkTPL": {
-                  "type": "text",
-                  "settings": {
-                    "text-id": "Header 1"
-                  }
-                }
-              },
-              "block_order": [
-                "text_tJkTPL"
-              ]
+                "type_of_cell": "header",
+                "cell-text": "Name",
+                "text-alignment": "center",
+                "cell-bg-color": "#ffffff",
+                "text-color": "#ffffff"
+              }
             },
             "table_cell_tLi9Fx": {
               "type": "table-cell",
               "settings": {
-                "type_of_cell": "header"
-              },
-              "blocks": {
-                "text_wjHU4J": {
-                  "type": "text",
-                  "settings": {
-                    "text-id": "Header 2"
-                  }
-                }
-              },
-              "block_order": [
-                "text_wjHU4J"
-              ]
+                "type_of_cell": "header",
+                "cell-text": "Last Name",
+                "text-alignment": "center",
+                "cell-bg-color": "#ffffff",
+                "text-color": "#ffffff"
+              }
+            },
+            "table_cell_JWB9Hw": {
+              "type": "table-cell",
+              "settings": {
+                "type_of_cell": "header",
+                "cell-text": "Profession",
+                "text-alignment": "center",
+                "cell-bg-color": "#ffffff",
+                "text-color": "#ffffff"
+              }
+            },
+            "table_cell_kjxETR": {
+              "type": "table-cell",
+              "settings": {
+                "type_of_cell": "header",
+                "cell-text": "Experiences",
+                "text-alignment": "center",
+                "cell-bg-color": "#ffffff",
+                "text-color": "#ffffff"
+              }
             }
           },
           "block_order": [
             "table_cell_4bzMUq",
-            "table_cell_tLi9Fx"
+            "table_cell_tLi9Fx",
+            "table_cell_JWB9Hw",
+            "table_cell_kjxETR"
           ]
         }
       },
       "block_order": [
         "table_row_n9kyTb",
-        "table_row_XDXTCT"
+        "table_row_BfWj9Y"
       ],
-      "settings": {}
+      "settings": {
+        "table-alignment": "center"
+      }
     },
     "rich_text_Bg9kwe": {
       "type": "rich-text",
