@@ -1,4 +1,6 @@
-<thead {{ block.shopify_attributes }}>
+{{ 'table.css' | asset_url | stylesheet_tag }}
+
+<thead {{ block.shopify_attributes }} style="--header-bg:{{ block.settings.header-bg-color }}">
     <tr>
         {% content_for 'blocks' %}
     </tr>
@@ -6,6 +8,14 @@
 {% schema %}
 {
     "name": "Table Header",
+    "settings": [
+        {
+            "type": "color",
+            "id": "header-bg-color",
+            "default": "#ffffff",
+            "label": "Row Background Color"
+        }
+    ],
     "blocks": [
         {
             "type": "table-cell"

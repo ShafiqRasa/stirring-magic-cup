@@ -1,11 +1,20 @@
+{{ 'table.css' | asset_url | stylesheet_tag }}
 
-<tr {{ block.shopify_attributes }}>
+<tr {{ block.shopify_attributes }} style="--row-bg:{{ block.settings.row-bg-color }}">
     {% content_for 'blocks' %}
 </tr>
 
 {% schema %}
 {
     "name": "Table Row",
+    "settings": [
+        {
+            "type": "color",
+            "id": "row-bg-color",
+           "default": "#ffffff",
+            "label": "Row Background Color"
+        }
+    ],
     "blocks": [
         {
             "type": "table-cell"

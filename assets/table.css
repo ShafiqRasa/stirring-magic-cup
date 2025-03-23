@@ -1,0 +1,23 @@
+.page-wdith {
+  display: flex;
+  align-items: center;
+  justify-content: var(--table-alignment);
+  padding: 5px;
+}
+thead tr {
+  background: var(--header-bg);
+}
+tbody tr {
+  background: var(--row-bg);
+}
+td,
+th {
+  border: 1px;
+  text-align: var(--text-alignment);
+  background: inherit;
+  color: var(--text-color) !important;
+}
+th.custom-color,
+td.custom-color {
+  background: var(--cell-bg) !important;
+}

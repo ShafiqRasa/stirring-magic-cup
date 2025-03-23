@@ -9,6 +9,149 @@
  */
 {
   "sections": {
+    "table_EMb7ib": {
+      "type": "table",
+      "blocks": {
+        "table_row_n9kyTb": {
+          "type": "table-row",
+          "settings": {},
+          "blocks": {
+            "table_cell_DggUWV": {
+              "type": "table-cell",
+              "settings": {
+                "type_of_cell": "body"
+              },
+              "blocks": {
+                "text_UinzE9": {
+                  "type": "text",
+                  "settings": {
+                    "text-id": "body 1"
+                  }
+                }
+              },
+              "block_order": [
+                "text_UinzE9"
+              ]
+            },
+            "table_cell_T4ctNq": {
+              "type": "table-cell",
+              "settings": {
+                "type_of_cell": "body"
+              },
+              "blocks": {
+                "text_HQEgAH": {
+                  "type": "text",
+                  "settings": {
+                    "text-id": "body 2"
+                  }
+                }
+              },
+              "block_order": [
+                "text_HQEgAH"
+              ]
+            }
+          },
+          "block_order": [
+            "table_cell_DggUWV",
+            "table_cell_T4ctNq"
+          ]
+        },
+        "table_row_XDXTCT": {
+          "type": "table-row",
+          "settings": {},
+          "blocks": {
+            "table_cell_gqWHQL": {
+              "type": "table-cell",
+              "settings": {
+                "type_of_cell": "body"
+              },
+              "blocks": {
+                "text_FwKUwR": {
+                  "type": "text",
+                  "settings": {
+                    "text-id": "body 1"
+                  }
+                }
+              },
+              "block_order": [
+                "text_FwKUwR"
+              ]
+            },
+            "table_cell_dapb8N": {
+              "type": "table-cell",
+              "settings": {
+                "type_of_cell": "body"
+              },
+              "blocks": {
+                "text_rRwrxV": {
+                  "type": "text",
+                  "settings": {
+                    "text-id": "body 2"
+                  }
+                }
+              },
+              "block_order": [
+                "text_rRwrxV"
+              ]
+            }
+          },
+          "block_order": [
+            "table_cell_gqWHQL",
+            "table_cell_dapb8N"
+          ]
+        },
+        "table-header": {
+          "type": "table-header",
+          "static": true,
+          "settings": {},
+          "blocks": {
+            "table_cell_4bzMUq": {
+              "type": "table-cell",
+              "settings": {
+                "type_of_cell": "header"
+              },
+              "blocks": {
+                "text_tJkTPL": {
+                  "type": "text",
+                  "settings": {
+                    "text-id": "Header 1"
+                  }
+                }
+              },
+              "block_order": [
+                "text_tJkTPL"
+              ]
+            },
+            "table_cell_tLi9Fx": {
+              "type": "table-cell",
+              "settings": {
+                "type_of_cell": "header"
+              },
+              "blocks": {
+                "text_wjHU4J": {
+                  "type": "text",
+                  "settings": {
+                    "text-id": "Header 2"
+                  }
+                }
+              },
+              "block_order": [
+                "text_wjHU4J"
+              ]
+            }
+          },
+          "block_order": [
+            "table_cell_4bzMUq",
+            "table_cell_tLi9Fx"
+          ]
+        }
+      },
+      "block_order": [
+        "table_row_n9kyTb",
+        "table_row_XDXTCT"
+      ],
+      "settings": {}
+    },
     "rich_text_Bg9kwe": {
       "type": "rich-text",
       "blocks": {
@@ -96,6 +239,7 @@
     }
   },
   "order": [
+    "table_EMb7ib",
     "rich_text_Bg9kwe",
     "main",
     "form"
