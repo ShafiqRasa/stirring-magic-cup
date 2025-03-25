@@ -9,6 +9,126 @@
  */
 {
   "sections": {
+    "table_mVmeqD": {
+      "type": "table",
+      "blocks": {
+        "table_row_LTAir4": {
+          "type": "_table-row",
+          "settings": {
+            "row-bg-color": "#ffffff"
+          },
+          "blocks": {
+            "table_cell_AtH4x9": {
+              "type": "_table-cell",
+              "settings": {
+                "type_of_cell": "body",
+                "cell-text": "Shafiq",
+                "text-alignment": "left",
+                "cell-bg-color": "#ffffff",
+                "text-color": "#000000"
+              }
+            },
+            "table_cell_KRTcq9": {
+              "type": "_table-cell",
+              "settings": {
+                "type_of_cell": "body",
+                "cell-text": "Salehi",
+                "text-alignment": "left",
+                "cell-bg-color": "#ffffff",
+                "text-color": "#000000"
+              }
+            },
+            "table_cell_XfPeqk": {
+              "type": "_table-cell",
+              "settings": {
+                "type_of_cell": "body",
+                "cell-text": "Shopify Developer",
+                "text-alignment": "left",
+                "cell-bg-color": "#ffffff",
+                "text-color": "#000000"
+              }
+            },
+            "table_cell_yzt9J7": {
+              "type": "_table-cell",
+              "settings": {
+                "type_of_cell": "body",
+                "cell-text": "2 Years",
+                "text-alignment": "left",
+                "cell-bg-color": "#94b506",
+                "text-color": "#ffffff"
+              }
+            }
+          },
+          "block_order": [
+            "table_cell_AtH4x9",
+            "table_cell_KRTcq9",
+            "table_cell_XfPeqk",
+            "table_cell_yzt9J7"
+          ]
+        },
+        "table-header": {
+          "type": "_table-header",
+          "static": true,
+          "settings": {
+            "header-bg-color": "#000000"
+          },
+          "blocks": {
+            "table_cell_gYTbLE": {
+              "type": "_table-cell",
+              "settings": {
+                "type_of_cell": "header",
+                "cell-text": "Name",
+                "text-alignment": "left",
+                "cell-bg-color": "#ffffff",
+                "text-color": "#ffffff"
+              }
+            },
+            "table_cell_3Mfrgg": {
+              "type": "_table-cell",
+              "settings": {
+                "type_of_cell": "header",
+                "cell-text": "Last Name",
+                "text-alignment": "left",
+                "cell-bg-color": "#ffffff",
+                "text-color": "#ffffff"
+              }
+            },
+            "table_cell_hd3jYc": {
+              "type": "_table-cell",
+              "settings": {
+                "type_of_cell": "header",
+                "cell-text": "Profession",
+                "text-alignment": "left",
+                "cell-bg-color": "#ffffff",
+                "text-color": "#ffffff"
+              }
+            },
+            "table_cell_irWmiD": {
+              "type": "_table-cell",
+              "settings": {
+                "type_of_cell": "header",
+                "cell-text": "Experiences",
+                "text-alignment": "left",
+                "cell-bg-color": "#94b506",
+                "text-color": "#ffffff"
+              }
+            }
+          },
+          "block_order": [
+            "table_cell_gYTbLE",
+            "table_cell_3Mfrgg",
+            "table_cell_hd3jYc",
+            "table_cell_irWmiD"
+          ]
+        }
+      },
+      "block_order": [
+        "table_row_LTAir4"
+      ],
+      "settings": {
+        "table-alignment": "center"
+      }
+    },
     "icon_list_Mz9tjp": {
       "type": "icon-list",
       "blocks": {
@@ -43,7 +163,7 @@
         "title": "Why Choose Us?",
         "desc": "Discover our range of services designed to provide the best experience for you. We ensure quality, reliability, and customer satisfaction.",
         "background": "",
-        "text_color": "#000"
+        "text_color": "#000000"
       }
     },
     "promotion_group_qR3EQT": {
@@ -297,6 +417,7 @@
     }
   },
   "order": [
+    "table_mVmeqD",
     "icon_list_Mz9tjp",
     "promotion_group_qR3EQT",
     "featured_product_iUYaNN",
