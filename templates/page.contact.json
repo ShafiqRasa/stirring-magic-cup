@@ -13,13 +13,13 @@
       "type": "table",
       "blocks": {
         "table_row_n9kyTb": {
-          "type": "table-row",
+          "type": "_table-row",
           "settings": {
             "row-bg-color": "#ffffff"
           },
           "blocks": {
             "table_cell_DggUWV": {
-              "type": "table-cell",
+              "type": "_table-cell",
               "settings": {
                 "type_of_cell": "body",
                 "cell-text": "Shafiq",
@@ -29,7 +29,7 @@
               }
             },
             "table_cell_T4ctNq": {
-              "type": "table-cell",
+              "type": "_table-cell",
               "settings": {
                 "type_of_cell": "body",
                 "cell-text": "Salehi",
@@ -39,7 +39,7 @@
               }
             },
             "table_cell_GcA9xb": {
-              "type": "table-cell",
+              "type": "_table-cell",
               "settings": {
                 "type_of_cell": "body",
                 "cell-text": "Shopify Theme Developer",
@@ -49,7 +49,7 @@
               }
             },
             "table_cell_act8JV": {
-              "type": "table-cell",
+              "type": "_table-cell",
               "settings": {
                 "type_of_cell": "body",
                 "cell-text": "2 Years",
@@ -67,13 +67,13 @@
           ]
         },
         "table_row_BfWj9Y": {
-          "type": "table-row",
+          "type": "_table-row",
           "settings": {
             "row-bg-color": "#ffffff"
           },
           "blocks": {
             "table_cell_rWkcJY": {
-              "type": "table-cell",
+              "type": "_table-cell",
               "settings": {
                 "type_of_cell": "body",
                 "cell-text": "Ali",
@@ -83,7 +83,7 @@
               }
             },
             "table_cell_q7WM9M": {
-              "type": "table-cell",
+              "type": "_table-cell",
               "settings": {
                 "type_of_cell": "body",
                 "cell-text": "Shar",
@@ -93,7 +93,7 @@
               }
             },
             "table_cell_RA4Ycz": {
-              "type": "table-cell",
+              "type": "_table-cell",
               "settings": {
                 "type_of_cell": "body",
                 "cell-text": "React Developer",
@@ -103,7 +103,7 @@
               }
             },
             "table_cell_3XreeT": {
-              "type": "table-cell",
+              "type": "_table-cell",
               "settings": {
                 "type_of_cell": "body",
                 "cell-text": "1 Year",
@@ -121,14 +121,14 @@
           ]
         },
         "table-header": {
-          "type": "table-header",
+          "type": "_table-header",
           "static": true,
           "settings": {
             "header-bg-color": "#11a955"
           },
           "blocks": {
             "table_cell_4bzMUq": {
-              "type": "table-cell",
+              "type": "_table-cell",
               "settings": {
                 "type_of_cell": "header",
                 "cell-text": "Name",
@@ -138,7 +138,7 @@
               }
             },
             "table_cell_tLi9Fx": {
-              "type": "table-cell",
+              "type": "_table-cell",
               "settings": {
                 "type_of_cell": "header",
                 "cell-text": "Last Name",
@@ -148,7 +148,7 @@
               }
             },
             "table_cell_JWB9Hw": {
-              "type": "table-cell",
+              "type": "_table-cell",
               "settings": {
                 "type_of_cell": "header",
                 "cell-text": "Profession",
@@ -158,7 +158,7 @@
               }
             },
             "table_cell_kjxETR": {
-              "type": "table-cell",
+              "type": "_table-cell",
               "settings": {
                 "type_of_cell": "header",
                 "cell-text": "Experiences",
@@ -176,10 +176,7 @@
           ]
         }
       },
-      "block_order": [
-        "table_row_n9kyTb",
-        "table_row_BfWj9Y"
-      ],
+      "block_order": ["table_row_n9kyTb", "table_row_BfWj9Y"],
       "settings": {
         "table-alignment": "center"
       }
@@ -270,10 +267,5 @@
       }
     }
   },
-  "order": [
-    "table_EMb7ib",
-    "rich_text_Bg9kwe",
-    "main",
-    "form"
-  ]
+  "order": ["table_EMb7ib", "rich_text_Bg9kwe", "main", "form"]
 }

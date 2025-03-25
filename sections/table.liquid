@@ -1,7 +1,7 @@
 {{ 'table.css' | asset_url | stylesheet_tag }}
 <div class="page-wdith" style="--table-alignment:{{ section.settings.table-alignment }}">
     <table>
-        {% content_for 'block', type:'table-header', id:'table-header' %} {% comment %} static single block{% endcomment %}
+        {% content_for 'block', type:'_table-header', id:'table-header' %} {% comment %} static single block{% endcomment %}
         <tbody>
             {% content_for 'blocks' %}
         </tbody>
@@ -37,7 +37,7 @@
     ],
     "blocks": [
         {
-            "type": "table-row"
+            "type": "_table-row"
        }
     ],
     "presets": [{
